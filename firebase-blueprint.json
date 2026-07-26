@@ -1,0 +1,23 @@
+{
+  "entities": {
+    "market_events": {
+      "title": "Market Event",
+      "description": "KRX Sidecar and Circuit Breaker market action disclosures",
+      "type": "object",
+      "properties": {
+        "date": { "type": "string", "description": "YYYY-MM-DD" },
+        "market": { "type": "string", "description": "유가증권(코스피) or 코스닥" },
+        "eventType": { "type": "string", "description": "사이드카 or 서킷브레이커" },
+        "direction": { "type": "string", "description": "매수, 매도, or -" },
+        "title": { "type": "string" },
+        "org": { "type": "string" },
+        "disclosureNo": { "type": "string" },
+        "time": { "type": "string" },
+        "indexImpact": { "type": "string" },
+        "notes": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["date", "market", "eventType", "direction", "title"]
+    }
+  }
+}

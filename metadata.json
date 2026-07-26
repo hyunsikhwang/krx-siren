@@ -1,0 +1,6 @@
+{
+  "name": "KRX 사이드카/서킷브레이커 모니터",
+  "description": "한국거래소(KRX) 코스피 및 코스닥 시장의 사이드카 및 서킷브레이커 발동 현황, 통계 및 공시 데이터를 실시간으로 조회하고 분석합니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
